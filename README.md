@@ -5,6 +5,7 @@
 This project forms part of the Nexford University MSDA Module 2 Assignment, where the goal is to build a Salary Function System that loads, processes, and exports salary data in Python, then validates it in R.
 
 The repository  - "salary-func" (https://github.com/sahbad/salary-func) demonstrates data cleaning, function-based programming, file handling, and cross-language integration (Python + R) using real salary data from San Francisco public employees.
+
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 🧩 Objectives
