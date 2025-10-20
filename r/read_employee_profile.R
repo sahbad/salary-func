@@ -14,7 +14,8 @@ if (!file.exists(zip_path)) stop(paste("Zip file not found:", zip_path))
 utils::unzip(zipfile = zip_path, exdir = unzip_dir)
 
 # Locate any CSV file inside the Employee Profile folder
-csvs <- list.files(file.path(unzip_dir, "Employee Profile"), pattern="\.csv$", full.names = TRUE)
+csvs <- list.files(unzip_dir, pattern="\\.csv$", full.names = TRUE, recursive = TRUE)
+if (length(csvs) == 0) stop("No CSV files found after unzipping.")
 
 # If no CSVs are found, throw an error
 if (length(csvs) == 0) stop("No CSV files found after unzipping.")
