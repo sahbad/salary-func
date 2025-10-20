@@ -1,4 +1,4 @@
-README - Salary Function Project 
+**README - Salary Function Project**
 
 📘 Overview
 
