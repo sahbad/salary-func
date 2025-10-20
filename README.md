@@ -5,6 +5,7 @@
 This project forms part of the Nexford University MSDA Module 2 Assignment, where the goal is to build a Salary Function System that loads, processes, and exports salary data in Python, then validates it in R.
 
 The repository  - "salary-func" (https://github.com/sahbad/salary-func) demonstrates data cleaning, function-based programming, file handling, and cross-language integration (Python + R) using real salary data from San Francisco public employees.
+-------------------------------------------------------------------------------------------------------------------------------------------
 
 🧩 Objectives
 
@@ -22,6 +23,9 @@ Exporting — writing filtered employee data to a CSV and zipping the results.
 
 R Integration — reading and displaying exported CSVs using an R script.
 
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
 🏗️ Repository Structure
 
 salary-func/
@@ -33,6 +37,9 @@ salary-func/
 ├─ .gitignore                 # excludes virtual environments, cache, and large files
 ├─ requirements.txt           # Python dependencies
 └─ README.md                  # project documentation
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
 
 🧠 How It Works
 
@@ -94,6 +101,8 @@ print(head(df, 10))
 
 This validates the exported data using R’s native CSV functions.
 
+-------------------------------------------------------------------------------------------------------------------------------------------
+
 ⚙️ Setup Instructions
 
 1. Clone the Repository
@@ -110,9 +119,9 @@ py -m venv .venv
 
 py -m pip install -r requirements.txt
 
-4. Launch JupyterLab
+4. Launch Jupyter Notebook
 
-jupyter lab
+jupyter notebook
 
 5. Run the Notebook Cells
 
@@ -141,17 +150,20 @@ R Output (Unzipped CSV)
   OvertimePay OtherPay Benefits TotalPay TotalPayBenefits Year
 1           0 400184.2       NA 567595.4         567595.4 2011
 
+-------------------------------------------------------------------------------------------------------------------------------------------
+
 🧹 Best Practices I Employed (Based on Instructions)
 
-I Committed changes regularly:
+* I Committed changes regularly:
 
 git add .
-git commit -m "Updated employee export and R verification"
+git commit -m "Updated employee export and R verification" (for example)
 git push
 
-I Included the Employee_Profile.zip in my final submission.
+* I Included the Employee_Profile.zip in my final submission.
 
-I made use of comments to properly describe my code for easier readability and structure. 
+* I made use of comments to properly describe my code for easier readability and structure. 
+-------------------------------------------------------------------------------------------------------------------------------------------
 
 🏁 Author & Credits
 
