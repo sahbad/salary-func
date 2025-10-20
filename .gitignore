@@ -22,6 +22,4 @@ build/
 .RData
 
 # Project
-output/
 data/*.zip
-Employee_Profile.zip
