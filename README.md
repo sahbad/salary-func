@@ -2,7 +2,7 @@
 
 📘 Overview
 
-This project forms part of the Nexford University MSDA Module 2 Assignment, where the goal is to build a Salary Function System that loads, processes, and exports salary data in Python, then validates it in R.
+This project forms part of the Programming in R & Python (BAN6420) Module 2 Assignment, where the goal is to build a Salary Function System that loads, processes, and exports salary data in Python, then validates it in R.
 
 The repository  - "salary-func" (https://github.com/sahbad/salary-func) demonstrates data cleaning, function-based programming, file handling, and cross-language integration (Python + R) using real salary data from San Francisco public employees.
 
@@ -31,12 +31,19 @@ R Integration — reading and displaying exported CSVs using an R script.
 
 salary-func/
 ├─ data/                      # contains Salaries.csv dataset
+
 ├─ notebooks/                 # contains salary_func.ipynb Jupyter notebook
+
 ├─ r/                         # contains R script for unzip & display
+
 │  └─ read_employee_profile.R
+
 ├─ output/                    # generated folder for exported ZIP and CSV files
+
 ├─ .gitignore                 # excludes virtual environments, cache, and large files
+
 ├─ requirements.txt           # Python dependencies
+
 └─ README.md                  # project documentation
 
 -------------------------------------------------------------------------------------------------------------------------------------------
@@ -169,6 +176,8 @@ git push
 🏁 Author & Credits
 
 Student: Saheed Adebowale Badru
+
+Course: BAN 6420 - Programming in R and Python
 
 Program: MS Data Analytics
 
