@@ -175,7 +175,7 @@ git push
 
 🏁 Author & Credits
 
-Student: Saheed Adebowale Badru
+Name: Saheed Adebowale Badru
 
 Course: BAN 6420 - Programming in R and Python
 
